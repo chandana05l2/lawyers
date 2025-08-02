@@ -1,0 +1,28 @@
+.auth-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}

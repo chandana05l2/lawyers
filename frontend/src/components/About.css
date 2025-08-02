@@ -1,0 +1,255 @@
+/* About Container */
+.about-container {
+  padding-top: 5rem;
+}
+
+.hero.hero-city {
+  background: url('https://www.gyanone.com/wp-content/uploads/2022/02/MBA-Lawyers.jpg') no-repeat center center/cover;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.icon-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  background-color: #1b2430;
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  gap: 20px;
+}
+
+.icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.icon-card i {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+
+/* Hero Section - Fullscreen */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('https://images.unsplash.com/photo-1581091870622-2e3f6363ad93') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+.cta-btn {
+  background-color: #f2c76e;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Clients Success */
+.clients-success .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 40px;
+  background: #fff;
+  gap: 30px;
+}
+.clients-success img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+.clients-success .text h2 {
+  font-size: 2rem;
+}
+.clients-success .text p {
+  font-size: 1.1rem;
+}
+
+/* Practice Areas */
+.practice-areas {
+  background: #1b2430;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.practice-areas h2 {
+  font-size: 2rem;
+}
+.practice-areas .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.practice-areas .card {
+  background: #2d3748;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Why Us */
+.why-us {
+  background: #f4f4f4;
+  padding: 60px 20px;
+}
+.why-us h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.why-us ul {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+.why-us li {
+  padding: 12px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Attorneys */
+.attorneys {
+  background: #1b2430;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.attorneys h2 {
+  font-size: 2rem;
+}
+.attorneys .profiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+.profile img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.profile h4 {
+  margin-top: 15px;
+}
+
+/* Awards */
+.awards {
+  background: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+.awards .logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+.awards img {
+  height: 50px;
+}
+
+/* Reviews */
+.reviews {
+  background: #1b2430;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.reviews blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* News Section */
+.news {
+  background: #f4f4f4;
+  padding: 60px 20px;
+}
+.news h2 {
+  text-align: center;
+}
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.post {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 280px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* FAQ */
+.faq {
+  background: #1b2430;
+  color: #fff;
+  padding: 60px 20px;
+}
+.faq ul {
+  list-style: none;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.faq li {
+  padding: 15px 0;
+  border-bottom: 1px solid #444;
+}
+
+/* Call to Action */
+.call-to-action {
+  background: #f2c76e;
+  text-align: center;
+  padding: 60px 20px;
+}
+.call-to-action h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background: #1b2430;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  font-size: 0.95rem;
+}
